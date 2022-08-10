@@ -43,7 +43,11 @@
 .list li:nth-child(1) {
   color: #fff;
 }
-
+.menu-icon {
+  display: none;
+  height: 25px;
+  cursor: pointer;
+}
 .button-s {
   padding: 13px 24px;
   color: #a77b06;
@@ -106,7 +110,7 @@ p {
 .bottom-container i:nth-child(1) {
   padding: 22px 23px;
   background-color: #39372d;
-  color: #fff;
+  color: #edeada;
 }
 .bottom-container i:nth-child(2) {
   padding: 22px 23px;
@@ -115,7 +119,7 @@ p {
 }
 .fa-arrow-right::before {
   font-size: 20px;
-  border: 1px solid #fff;
+  border: 1px solid #edeada;
   border-radius: 35px;
   padding: 8px 8px;
 }
@@ -125,4 +129,71 @@ p {
   border-radius: 35px;
   padding: 8px 8px;
   color: #796e32;
+}
+@media screen and (max-width: 1200px) {
+  .navbar {
+    padding: 20px;
+  }
+  .navbar img {
+    height: 35px;
+  }
+  .title {
+    padding: 40px;
+  }
+  .heading {
+    font-size: 28px;
+  }
+  .words p {
+    padding: 10px;
+    font-size: 18px;
+  }
+  .bottom-container i:nth-child(1) {
+    padding: 18px;
+  }
+  .bottom-container i:nth-child(2) {
+    padding: 18px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .menu-icon {
+    display: inline-block;
+    height: 25px;
+  }
+  .list {
+    display: none;
+  }
+  .title {
+    padding: 40px;
+  }
+  .heading {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  .words p {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .container {
+    background-position: top;
+  }
+  .title {
+    padding: 10px;
+    height: 250px;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .heading {
+    width: 100%;
+    font-size: 20px;
+  }
+  .words p {
+    width: 100%;
+    font-size: 15px;
+  }
+  .bottom-container {
+    display: none;
+  }
 }

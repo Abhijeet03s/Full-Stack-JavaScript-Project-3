@@ -10,7 +10,7 @@
 
 # Live Project 3 : Law Home Page
 
-## Project 3: [Live Link]()
+## Project 3: [Live Link](https://live-project-3-fs-js.netlify.app/)
 
 -   Skills Gained in this project.
     -   Learned how to stack a background image behind a colored background.
